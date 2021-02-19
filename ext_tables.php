@@ -4,7 +4,7 @@ if (!defined('TYPO3_MODE')) {
 }
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
-    $_EXTKEY,
+    'powermail_from_override',
     'Configuration/TypoScript',
     'Powermail Functionality: Static From'
 );

@@ -2,7 +2,6 @@
     "name": "serfhos/powermail-from-override",
     "description": "TYPO3 Extension - Feature: Powermail: Static From in Mails",
     "type": "typo3-cms-extension",
-
     "keywords": [
         "TYPO3",
         "CMS",
@@ -13,8 +12,7 @@
         "Sender Policy Framework"
     ],
     "require": {
-      "typo3/cms-core": "^8.7.0 || ^9.5.0 || ^10.4.0",
-      "typo3-ter/powermail": "4.0 - 8.99"
+      "typo3/cms-core": "^11.5"
     },
     "homepage": "https://github.com/bmoex/powermail_from_override",
     "license": "LGPL-3.0+",
@@ -23,7 +21,6 @@
             "Serfhos\\PowermailFromOverride\\": "Classes/"
         }
     },
-
     "authors": [
         {
             "name": "Benjamin Serfhos",

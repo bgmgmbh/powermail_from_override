@@ -21,6 +21,11 @@
             "Serfhos\\PowermailFromOverride\\": "Classes/"
         }
     },
+    "extra": {
+      "typo3/cms": {
+        "extension-key": "powermail_from_override"
+      }
+    },
     "authors": [
         {
             "name": "Benjamin Serfhos",

@@ -1,0 +1,15 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Serfhos\PowermailFromOverride\:
+    resource: '../Classes/*'
+
+  Serfhos\PowermailFromOverride\EventListener\SendMailServiceEventListener:
+    public: true
+    tags:
+      - name: event.listener
+        identifier: 'powermail-from-override-set-reply-to-and-recipient'
+        event: In2code\Powermail\Events\SendMailServicePrepareAndSendEvent

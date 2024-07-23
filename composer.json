@@ -2,7 +2,7 @@
     "name": "serfhos/powermail-from-override",
     "description": "TYPO3 Extension - Feature: Powermail: Static From in Mails",
     "type": "typo3-cms-extension",
-    "version": "12.4.0",
+    "version": "12.4.1",
     "keywords": [
         "TYPO3",
         "CMS",

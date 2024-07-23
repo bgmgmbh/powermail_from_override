@@ -25,10 +25,7 @@ class SendMailServiceEventListener {
 
         $settings = $sendMailService->getSettings();
 
-        \TYPO3\CMS\Extbase\Utility\DebuggerUtility::var_dump($settings['moveFromToReplyTo']);
-
         if ((bool)$settings['moveFromToReplyTo']['enabled'] === true) {
-            die('aa');
             if (!is_array($message->getReplyTo()) ||
                 $message->getReplyTo()[0]->getAddress() === $message->getFrom()[0]->getAddress()
             ) {
@@ -40,8 +37,6 @@ class SendMailServiceEventListener {
                 $this->log('Moving of From => ReplyTo is disabled. Reply-To already set, check if <type>.overwrite.replyToEmail is set.', $message->getReplyTo());
             }
         }
-
-        die();
 
         $event->setMailMessage($message);
     }

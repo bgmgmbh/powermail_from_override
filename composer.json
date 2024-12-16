@@ -1,37 +1,38 @@
 {
-    "name": "serfhos/powermail-from-override",
-    "description": "TYPO3 Extension - Feature: Powermail: Static From in Mails",
-    "type": "typo3-cms-extension",
-    "version": "12.4.1",
-    "keywords": [
-        "TYPO3",
-        "CMS",
-        "Serfhos",
-        "Benjamin Serfhos",
-        "Extbase",
-        "SPF",
-        "Sender Policy Framework"
-    ],
-    "require": {
-      "typo3/cms-core": "^12.4"
-    },
-    "homepage": "https://github.com/bmoex/powermail_from_override",
-    "license": "LGPL-3.0+",
-    "autoload": {
-        "psr-4": {
-            "Serfhos\\PowermailFromOverride\\": "Classes/"
-        }
-    },
-    "extra": {
-      "typo3/cms": {
-        "extension-key": "powermail_from_override"
-      }
-    },
-    "authors": [
-        {
-            "name": "Benjamin Serfhos",
-            "email": "benjamin@serfhos.com",
-            "homepage": "http://serfhos.com"
-        }
-    ]
+  "name": "serfhos/powermail-from-override",
+  "description": "TYPO3 Extension - Feature: Powermail: Static From in Mails",
+  "type": "typo3-cms-extension",
+  "version": "13.4.0",
+  "keywords": [
+    "TYPO3",
+    "CMS",
+    "Serfhos",
+    "Benjamin Serfhos",
+    "Extbase",
+    "SPF",
+    "Sender Policy Framework"
+  ],
+  "require": {
+    "typo3/cms-core": "^13.4",
+    "in2code/powermail": "dev-master"
+  },
+  "homepage": "https://github.com/bmoex/powermail_from_override",
+  "license": "LGPL-3.0+",
+  "autoload": {
+    "psr-4": {
+      "Serfhos\\PowermailFromOverride\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "powermail_from_override"
+    }
+  },
+  "authors": [
+    {
+      "name": "Benjamin Serfhos",
+      "email": "benjamin@serfhos.com",
+      "homepage": "http://serfhos.com"
+    }
+  ]
 }

@@ -14,7 +14,7 @@
   ],
   "require": {
     "typo3/cms-core": "^13.4",
-    "in2code/powermail": "dev-master"
+    "in2code/powermail": "^13"
   },
   "homepage": "https://github.com/bmoex/powermail_from_override",
   "license": "LGPL-3.0+",
